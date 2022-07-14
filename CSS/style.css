@@ -1,0 +1,19 @@
+/* Here we set the code for all the essential parts for the document */
+
+:root {
+  --main-bg-color: brown;
+  --main-font: sans-serif;
+  --color-brown: #8A6044;
+  --color-lite-brown: #D7D1CB;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
