@@ -1,0 +1,48 @@
+.info-container {
+  padding: 20px;
+}
+
+.info-container img {
+  width: 100%;
+}
+
+.info-container h1 {
+  color: var(--color-brown);
+}
+
+.three-points__container {
+  height: 850px;
+  width: 100%;
+}
+
+.three-points__container svg {
+  transform: translateY(5px);
+}
+
+.three-points__content {
+  background-color: var(--color-late);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.three-points__content img {
+  width: 370px;
+  justify-self: center;
+  align-self: center;
+}
+
+.three-points__txt {
+  align-self: center;
+  margin: 30px;
+}
+
+.three-points__txt h4 {
+  color: white;
+}
+
+.three-points__txt p {
+  color: rgba(255, 255, 255, 0.808);
+  margin-bottom: 20px;
+}
