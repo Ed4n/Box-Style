@@ -33,7 +33,6 @@ h4 {
 }
 
 /* NAV // ---------------------------------- */
-
 .nav-button {
   position: fixed;
   top: 15px;
@@ -111,8 +110,6 @@ footer h3 {
   align-items: center;
 }
 
-
-
 .footer-info__txt p {
   color: rgba(255, 255, 255, 0.822);
   margin-top: 5px;
@@ -165,6 +162,7 @@ footer h3 {
   margin-left: 5px;
   margin-right: 5px;
 }
+
 
 /* footer-right // ----------------------*/
 .footer-right {

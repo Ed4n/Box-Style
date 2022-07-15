@@ -1,3 +1,5 @@
+
+/* main information // ===================== */
 .info-container {
   padding: 20px;
 }
@@ -10,6 +12,8 @@
   color: var(--color-brown);
 }
 
+
+/* three strong points information // ======================= */
 .three-points__container {
   height: 850px;
   width: 100%;
