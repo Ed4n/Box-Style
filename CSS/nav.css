@@ -53,9 +53,9 @@ nav {
   flex-direction: column;
   clip-path: circle(100px at 90% -10%);
   -webkit-clip-path: circle(100px at 100% -10%);
-  transition: 1s ease-in;
+  transition: 0.7s ease-out;
   pointer-events: none;
-  transform: translateY(-8px);
+  transform: translateY(-12px);
 
   z-index: 9;
 }
