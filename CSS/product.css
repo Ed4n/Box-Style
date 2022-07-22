@@ -6,21 +6,21 @@
 }
 
 .product {
-  width: 170px;
-  height: 250px;
-  background: grey;
+  width: 187px;
+  height: 285px;
   margin: 15px 0px;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
+  background: white;
   align-items: center;
   box-shadow: 8px 7px 5px -3px rgba(0, 0, 0, 0.16);
   -webkit-box-shadow: 8px 7px 5px -3px rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 8px 7px 5px -3px rgba(0, 0, 0, 0.16);
 }
 
+/* product-top */
 .product-top {
-  background: red;
   height: 70%;
   width: 100%;
   border-radius: 12px 12px 0px 0px;
@@ -34,12 +34,96 @@
   height: 95%;
   align-self: flex-end;
   border-radius: 12px 12px 0 0;
-  background: var(--color-late);
+  background: var(--color-lite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.product-top__container img {
+  width: 80%;
+  height: 80%;
+}
+
+/* product-bottom */
 .product-bottom {
-  background: blue;
+  background: var(--color-lite-brown);
   height: 30%;
   width: 100%;
   border-radius: 0 0 12px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.product-bottom__info {
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+}
+
+.product-bottom__bottom {
+  width: 100%;
+
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.talla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 100%;
+  background: white;
+  color: var(--color-lite-brown);
+}
+
+.product-bottom__bottom h2 {
+  color: white;
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+.pop-product {
+  width: 100%;
+  height: 100vh;
+background: rgba(255, 255, 255, 0.336);
+position: fixed;
+z-index: 12;
+display: none;
+}
+
+.add-filter {
+  display: block;
+  
+}
+
+/* Product pop up */
+.pop {
+  z-index: 13;
+  position: absolute;
+  top: 100px;
+  left: 30%;
+}
+
+.bg-blur {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: 12;
+  
+}
+
+
